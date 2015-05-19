@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		962FECDD1B0BAD7600F7CF10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 962FECDC1B0BAD7600F7CF10 /* main.m */; };
+		962FECE51B0BAD9E00F7CF10 /* Cliente.m in Sources */ = {isa = PBXBuildFile; fileRef = 962FECE41B0BAD9E00F7CF10 /* Cliente.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		962FECD91B0BAD7600F7CF10 /* Ej03_Clases */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ej03_Clases; sourceTree = BUILT_PRODUCTS_DIR; };
 		962FECDC1B0BAD7600F7CF10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		962FECE31B0BAD9E00F7CF10 /* Cliente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cliente.h; path = Modelos/Cliente.h; sourceTree = "<group>"; };
+		962FECE41B0BAD9E00F7CF10 /* Cliente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cliente.m; path = Modelos/Cliente.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,18 @@
 			isa = PBXGroup;
 			children = (
 				962FECDC1B0BAD7600F7CF10 /* main.m */,
+				962FECE61B0BADA700F7CF10 /* Modelos */,
 			);
 			path = Ej03_Clases;
+			sourceTree = "<group>";
+		};
+		962FECE61B0BADA700F7CF10 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				962FECE41B0BAD9E00F7CF10 /* Cliente.m */,
+				962FECE31B0BAD9E00F7CF10 /* Cliente.h */,
+			);
+			name = Modelos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962FECE51B0BAD9E00F7CF10 /* Cliente.m in Sources */,
 				962FECDD1B0BAD7600F7CF10 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

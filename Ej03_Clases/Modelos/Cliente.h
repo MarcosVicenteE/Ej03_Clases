@@ -20,6 +20,8 @@
     long _telefono;
     char _letra;
     BOOL _activo;
+    NSString *_nombre;
+    NSString *_direccion;
 }
 +(void)detectarMetodo;
 -(id) initWithCodigo:(int)codigo
